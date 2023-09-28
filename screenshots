@@ -1,0 +1,6 @@
+# screenshots [ requires grim and slurp ]
+        # focused display
+        bindsym print exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | select(.focused) | .name')
+
+        # selection to clipboard
+        bindsym Shift+print exec grim -g "$(slurp)" - | wl-copy -t image/png
