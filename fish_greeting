@@ -1,3 +1,5 @@
+# ~/.config/fish/config.fish
+# random fortune greeting [ requires: fortune ]
 function fish_greeting
   fortune
 end
