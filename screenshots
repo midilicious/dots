@@ -1,5 +1,5 @@
 # /etc/sway/config or ~/.config/sway/config or `include` within
-# screenshots [ requires grim, wl-clipboard, and slurp ]
+# screenshots [ requires grim, wl-clipboard, slurp, and jq ]
         # focused display
         bindsym print exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | select(.focused) | .name')
 
