@@ -1,3 +1,5 @@
+# Deprecated. Now included in OpenSUSE's default configuration
+# https://github.com/openSUSE/openSUSEway/tree/main/.config/sway
 # /etc/sway/config or ~/.config/sway/config or `include` within
 # screenshots [ requires grim, wl-clipboard, slurp, and jq ]
         # focused display
