@@ -1,9 +1,11 @@
 syntax on
 
-set cursorline
+" set cursorline
 
 set number
 set relativenumber
+
+set ruler
 
 set autoindent 
 set expandtab 
